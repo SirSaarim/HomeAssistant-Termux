@@ -26,24 +26,27 @@ pkg install git
 
 ### Step 3: Install HomeAssistant-Termux
 
-Clone  HomeAssistant-Termux:
+1. Clone  HomeAssistant-Termux:
 ```bash
 git clone https://github.com/huytungst/HomeAssistant-Termux.git
 ```
 
-Go to the root directory of HomeAssistant-Termux:
+2. Go to the root directory of HomeAssistant-Termux:
 
 ```bash
 cd HomeAssistant-Termux
 ```
 
-Install Udocker from the cloned repository:
+3. Install Udocker from the cloned repository:
 
 ```bash
 ./install_udocker.sh
+
 ```
 
-Run the script `home-assistant-core.sh`:
+**July 2026:** If you encounter the error `no image found in manifest for platform android/arm64 home assistant`, try running `pkg install udocker` instead of `./install_udocker.sh`. *(Tested on a Galaxy Tab S6 Lite running Android 13. Thanks to the Home Assistant Community members for this [suggestion](https://community.home-assistant.io/t/simple-and-fast-installing-home-assistant-core-and-matter-server-on-android-no-root-no-qemu/788933/35).)*
+
+4. Run the script `home-assistant-core.sh`:
 
 ```bash
 ./home-assistant-core.sh
