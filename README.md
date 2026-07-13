@@ -16,11 +16,13 @@ Got an old Android phone and don’t want to buy a Raspberry Pi or a PC to host 
 
 ### Step 2: Install Git in Termux:
 
+1. Update & Upgrade Termux packages
 ```bash
-# Update & Upgrade Termux packages
 pkg update && pkg upgrade
+```
 
-# Install git
+2. Install git
+```bash
 pkg install git
 ```
 
@@ -61,12 +63,12 @@ cd HomeAssistant-Termux
 
 
 
-Run the script `matter-server.sh`:
-
+1. Run the script `matter-server.sh`:
 ```bash
 ./matter-server.sh
 ```
-Then, enable the Matter Integration in Home Assistant and connect them using the WebSocket URL:
+
+2. Then, enable the Matter Integration in Home Assistant and connect them using the WebSocket URL:
 ```bash
 ws://localhost:5580/ws
 ```
