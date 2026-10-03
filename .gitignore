@@ -1,0 +1,12 @@
+haconfig/secrets.yaml
+haconfig/home-assistant_v2.db
+haconfig/home-assistant_v2.db-shm
+haconfig/home-assistant_v2.db-wal
+haconfig/home-assistant.log
+haconfig/home-assistant.log.1
+haconfig/.storage/
+haconfig/backups/
+haconfig/deps/
+haconfig/tts/
+haconfig/image/
+haconfig/.cloud/

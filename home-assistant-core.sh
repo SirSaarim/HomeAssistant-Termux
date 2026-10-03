@@ -2,7 +2,7 @@
 source "$(dirname "${BASH_SOURCE[0]}")/source.env"
 
 # The script will find and download the image from Docker Hub, not from GitHub Container Registry
-IMAGE_NAME="homeassistant/home-assistant:stable"
+IMAGE_NAME="homeassistant/home-assistant:2024.10"
 CONTAINER_NAME="home-assistant-core"
 
 # Set timezone, eg, Asia/Seoul. Feel free to change.
@@ -25,6 +25,7 @@ udocker_check
 udocker_prune
 
 # Create the Home Assistant container
+# udocker pull --platform=linux/arm64 "$IMAGE_NAME"
 udocker_create "$CONTAINER_NAME" "$IMAGE_NAME"
 
 # If arguments are passed, run them directly in the container
