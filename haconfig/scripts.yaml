@@ -1,1 +1,31 @@
-{}
+set_prayer_configs:
+  alias: Set Prayer Configs
+  sequence:
+  - data:
+      entity_id: input_text.fajr_config
+      value: "{\n  \"name\": \"Fajr\",\n  \"audio\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Fajr/Fajr.mp3\",\n
+        \ \"image\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Fajr/Fajr.png\",\n
+        \ \"video\": \"\",\n  \"volume\": 0.35,\n  \"metadata_type\": 3\n}"
+    action: input_text.set_value
+  - data:
+      entity_id: input_text.dhuhr_config
+      value: "{\n  \"name\": \"Dhuhr\",\n  \"audio\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Dhuhr/Dhuhr.mp3\",\n
+        \ \"image\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Dhuhr/Dhuhr.png\",\n
+        \ \"video\": \"\",\n  \"volume\": 0.35,\n  \"metadata_type\": 3\n}"
+    action: input_text.set_value
+  - data:
+      entity_id: input_text.asr_config
+      value: "{\n  \"name\": \"Asr\",\n  \"audio\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Asr/Asr.mp3\",\n
+        \ \"image\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Asr/Asr.png\",\n
+        \ \"video\": \"\",\n  \"volume\": 0.35,\n  \"metadata_type\": 3\n}"
+    action: input_text.set_value
+  - data:
+      entity_id: input_text.maghrib_config
+      value: "{\n  \"name\": \"Maghrib\",\n  \"audio\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Maghrib/Maghrib.mp3\",\n
+        \ \"image\": \"https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Maghrib/Maghrib.png\",\n
+        \ \"video\": \"\",\n  \"volume\": 0.35,\n  \"metadata_type\": 3\n}"
+    action: input_text.set_value
+  - data:
+      entity_id: input_text.isha_config
+      value: "{\n  \"name\": \"Isha\","
+    action: input_text.set_value
