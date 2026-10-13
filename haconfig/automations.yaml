@@ -1,12 +1,9 @@
 - id: '1790415491873'
   alias: Adhan on Tv
-  description: 'Plays the appropriate Adhan on the TV at Fajr, Dhuhr, Asr, Maghrib
+  description: "Plays the appropriate Adhan on the TV at Fajr, Dhuhr, Asr, Maghrib
     and Isha prayer times. Turns on the TV, sets the volume, casts prayer-specific
     audio and artwork from Cloudflare R2 (adhan-media bucket). Audio and image URLs
-    are managed via input_text helpers per prayer. Fajr only: TV sleeps 6 minutes
-    after the adhan....
-
-    '
+    are managed via input_text helpers per prayer. \n"
   triggers:
   - trigger: time
     at: sensor.islamic_prayer_times_fajr_prayer
@@ -29,15 +26,15 @@
     id: demo
   conditions: []
   actions:
-  - action: media_player.turn_on
-    target:
-      entity_id: media_player.samina_lakeview_tv
-    data: {}
   - action: media_player.volume_set
     target:
       entity_id: media_player.samina_lakeview_tv
     data:
       volume_level: 0.35
+  - action: media_player.turn_on
+    target:
+      entity_id: media_player.samina_lakeview_tv
+    data: {}
   - action: media_player.play_media
     target:
       entity_id: media_player.samina_lakeview_tv
