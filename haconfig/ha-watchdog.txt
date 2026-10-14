@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/HomeAssistant-Termux/haconfig/ha-watchdog.log

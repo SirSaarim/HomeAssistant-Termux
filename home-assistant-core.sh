@@ -6,7 +6,7 @@ IMAGE_NAME="homeassistant/home-assistant:2024.10"
 CONTAINER_NAME="home-assistant-core"
 
 # Set timezone, eg, Asia/Seoul. Feel free to change.
-TZ="Asia/Seoul"
+TZ="Australia/Brisbane"
 
 # Set storage path for Home Assistant configuration
 STORAGE_PATH="$(pwd)/haconfig"
