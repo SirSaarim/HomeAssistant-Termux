@@ -1,0 +1,15 @@
+command_ran_timestamp=Thu 15/10/2026, 10:17 PM (AEST)
+device_uptime= 22:17:47 up 6 days, 17:50,  load average: 15.28, 15.39, 15.51
+
+ha_pid=3858
+ha_status=Running
+ha_elapsed=05:01
+ha_http_status=Reachable (200)
+
+sshd_pid=2172
+sshd_status=Running
+sshd_elapsed=10:09:33
+
+watchdog_pid=3689
+watchdog_status=Running
+watchdog_elapsed=05:04

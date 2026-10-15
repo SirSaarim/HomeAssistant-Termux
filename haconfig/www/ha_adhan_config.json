@@ -1,0 +1,42 @@
+{
+  "fajr": {
+    "name": "Fajr",
+    "audio": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Fajr/Fajr.mp3",
+    "image": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Fajr/Fajr.png",
+    "video": "",
+    "volume": 0.35,
+    "metadata_type": 3
+  },
+  "dhuhr": {
+    "name": "Dhuhr",
+    "audio": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Dhuhr/Dhuhr.mp3",
+    "image": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Dhuhr/Dhuhr.png",
+    "video": "",
+    "volume": 0.35,
+    "metadata_type": 3
+  },
+  "asr": {
+    "name": "Asr",
+    "audio": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Asr/Asr.mp3",
+    "image": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Asr/Asr.png",
+    "video": "",
+    "volume": 0.35,
+    "metadata_type": 3
+  },
+  "maghrib": {
+    "name": "Maghrib",
+    "audio": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Maghrib/Maghrib.mp3",
+    "image": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Maghrib/Maghrib.png",
+    "video": "",
+    "volume": 0.35,
+    "metadata_type": 3
+  },
+  "isha": {
+    "name": "Isha",
+    "audio": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Isha/Isha.mp3",
+    "image": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Isha/Isha.png",
+    "video": "",
+    "volume": 0.35,
+    "metadata_type": 3
+  }
+}
