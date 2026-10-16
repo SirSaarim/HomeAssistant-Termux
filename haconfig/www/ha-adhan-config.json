@@ -41,8 +41,8 @@
   },
   "demo": {
     "name": "Demo",
-    "audio": "https://github.com/anars/blank-audio/raw/refs/heads/master/10-seconds-of-silence.mp3",
-    "image": "https://i.pinimg.com/originals/d0/d4/6a/d0d46a8c24218ed2fbd3c06b8af0f67a.jpg",
+    "audio": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/audio/Demo/Demo.mp3",
+    "image": "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/images/Demo/Demo.png",
     "video": "",
     "volume": 0.35,
     "metadata_type": 3

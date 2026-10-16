@@ -13,3 +13,16 @@ logbook:
   exclude:
     entities:
       - sensor.next_adhan_in
+
+rest:
+  - sensor:
+      name: "Adhan Config"
+      resource: "https://pub-bf016cdd543b4f1b8b3fc2ec4c79d3f3.r2.dev/ha-adhan-config.json"
+      scan_interval: 3600
+      value_template: "ok"
+      json_attributes:
+        - fajr
+        - dhuhr
+        - asr
+        - maghrib
+        - isha
